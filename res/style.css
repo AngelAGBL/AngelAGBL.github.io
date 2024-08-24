@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+*:link {
+  color: #0ff;
+  text-decoration: none;
+}
+
+body {
+  background: #101014;
+  color: #ccc;
+  font-family: mono;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  padding: 0.5em;
+  background: #000;
+}
+header h1 {
+  text-align: center;
+}
+
+.title {
+  background: linear-gradient(to top, #101014, rgba(0, 0, 0, 0.2)), url(/assets/background.jpeg) no-repeat bottom center;
+  background-size: 100%;
+  margin: 0;
+  padding: 6em;
+  text-align: center;
+}
+.title h1 {
+  font-size: 8vw;
+}
+.title h2 {
+  font-size: 5vw;
+}
+.title h3 {
+  margin: 3em;
+}
+
+main {
+  padding: 3em;
+}
+
+footer {
+  padding: 3em;
+  background: #000;
+}
+footer p {
+  margin: 10px;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}/*# sourceMappingURL=style.css.map */
